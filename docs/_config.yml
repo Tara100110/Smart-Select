@@ -1,7 +1,10 @@
 # _config.yml
-sass:
-  sass_dir: docs/_sass    # SCSS files directory
-  style: compressed       # Compressed CSS output
 
+# Specify the directory where your SCSS files are located
+sass:
+  sass_dir: _sass            # Directory for SCSS files (relative to the root of the docs folder)
+  style: compressed           # Output style for compiled CSS (compressed)
+
+# Exclude compiled CSS from Jekyll processing
 exclude:
-  - docs/assets/css/main.css   # Exclude the compiled CSS file from Jekyll processing
+  - assets/css/main.css       # Adjust the path based on the root directory of the site
