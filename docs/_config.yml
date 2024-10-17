@@ -1,0 +1,7 @@
+# _config.yml
+sass:
+  sass_dir: docs/_sass    # SCSS files directory
+  style: compressed       # Compressed CSS output
+
+exclude:
+  - docs/assets/css/main.css   # Exclude the compiled CSS file from Jekyll processing
