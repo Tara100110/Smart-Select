@@ -8,10 +8,23 @@ body {
 }
 
 header {
-  background-color: #2196F3;
-  color: white;
-  text-align: center;
-  padding: 1rem;
+            font-size: 4rem;
+            /* Large font size */
+            color: #4e985c;
+            /* Dark blue color */
+            text-align: center;
+            /* Center the text */
+            letter-spacing: 2px;
+            /* Space between letters */
+            text-shadow: 2px 2px 4px rgba(149, 236, 117, 0.2);
+            /* Soft shadow effect */
+            font-family: 'OCEAN TYPE', sans-serif;
+            /* Font family */
+            transition: transform 0.3s ease;
+            /* Smooth scaling effect */
+            display: inline-block;
+            display: block;
+        
 }
 
 h1, h2 {
