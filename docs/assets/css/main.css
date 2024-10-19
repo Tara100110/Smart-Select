@@ -24,8 +24,8 @@ header {
             /* Smooth scaling effect */
             display: inline-block;
             display: block;
-             @media only screen and (max-width: 600px)
 }
+
 
 h1, h2 {
   margin: 0.5rem 0;
